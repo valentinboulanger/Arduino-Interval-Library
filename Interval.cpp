@@ -1,3 +1,8 @@
+/*
+  Interval.cpp - Library for asynchronous actions.
+  Created by Valentin B., December 30, 2019.
+  Released into the public domain.
+*/
 #include "Arduino.h"
 #include "Interval.h"
 
@@ -29,4 +34,13 @@ bool Interval::isElapsed(){
 unsigned int Interval::beforeElapsed(){
   actual = millis();
   return (timer-actual+previous);
+}
+
+void Interval::addToInterval(int duration){
+  if((timer + duration) < 0) timer = 0;
+  else timer += duration;
+}
+
+void Interval::setInterval(unsigned int setting){
+  timer = setting;
 }

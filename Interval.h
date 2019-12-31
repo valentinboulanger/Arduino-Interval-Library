@@ -15,6 +15,8 @@ class Interval
     void updateTimer();
     bool isElapsed();
     unsigned int beforeElapsed();
+    void addToInterval(int duration);
+    void setInterval(unsigned int setting);
 
   private:
     unsigned int actual;

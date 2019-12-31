@@ -48,5 +48,40 @@ void loop(){
   }
 }
 ```
+## Function addToInterval()
+The `addToInterval()` function allows you to add or remove a duration from an interval.
+```
+#include <Interval.h>
+Interval myInterval(2000);
+
+void setup(){
+  Serial.begin(9600);
+}
+
+void loop(){
+  if(myInterval.isElapsed()){
+    //Intructions here will be executed every 2000 ms
+    myInterval.addToInterval(-500);
+  }
+}
+```
+## Function setInterval()
+The `setInterval()` function allows you to redefine an interval.
+```
+#include <Interval.h>
+Interval myInterval(2000);
+
+void setup(){
+  Serial.begin(9600);
+  myInterval.setInterval(3000);
+}
+
+void loop(){
+  if(myInterval.isElapsed()){
+    //Intructions here will be executed every 2000 ms
+    myInterval.addToInterval(-500);
+  }
+}
+```
 # To finish
 If you have other ideas for this library, please [indicate them here](https://github.com/valentinboulanger/Arduino-Interval-Library/issues). Thanks !
