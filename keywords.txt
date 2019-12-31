@@ -1,0 +1,21 @@
+#######################################
+# Syntax Coloring Map Interval
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Interval	KEYWORD1	Interval
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+isElapsed	KEYWORD2
+beforeElapsed	KEYWORD2
+addToInterval	KEYWORD2
+setInterval	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
