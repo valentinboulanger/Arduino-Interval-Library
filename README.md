@@ -9,7 +9,7 @@ To install this library on your Arduino IDE, you should follow the steps below :
 
 # Usage
 ## Examples
-To begin, you can view the pre-recorded examples in `File > Examples > Interval`.
+To begin, you can view the pre-recorded examples in `File > Examples > Arduino-Interval-Library`.
 ## Include
 To use this library, you must have at the first line : ```#include <Interval.h>```.
 ## Definition
