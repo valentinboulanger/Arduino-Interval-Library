@@ -15,6 +15,7 @@ isElapsed	KEYWORD2
 beforeElapsed	KEYWORD2
 addToInterval	KEYWORD2
 setInterval	KEYWORD2
+value	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

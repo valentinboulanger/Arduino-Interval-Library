@@ -83,5 +83,19 @@ void loop(){
   }
 }
 ```
+## Function value()
+The `value()` function returns the defined interval.
+```
+#include <Interval.h>
+Interval myInterval(2000);
+
+void setup(){
+  Serial.begin(9600);
+  myInterval.value(); //It returns 2000
+}
+
+void loop(){
+}
+```
 # To finish
 If you have other ideas for this library, please [indicate them here](https://github.com/valentinboulanger/Arduino-Interval-Library/issues). Thanks !

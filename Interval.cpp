@@ -41,6 +41,10 @@ void Interval::addToInterval(int duration){
   else timer += duration;
 }
 
+unsigned int Interval::value(){
+  return timer;
+}
+
 void Interval::setInterval(unsigned int setting){
   timer = setting;
 }

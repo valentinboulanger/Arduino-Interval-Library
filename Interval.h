@@ -17,6 +17,7 @@ class Interval
     unsigned int beforeElapsed();
     void addToInterval(int duration);
     void setInterval(unsigned int setting);
+    unsigned int value();
 
   private:
     unsigned int actual;
